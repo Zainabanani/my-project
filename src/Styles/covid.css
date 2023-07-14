@@ -62,31 +62,75 @@ outline: none;
 
     .main-covid{
         height: 833px;
+        width: 100%;
     }
     .covid-container{
         display: flex ;
         flex-direction: row-reverse;
-        justify-content: center;
-       
-        height: 600px;
-
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
     }
    .vaccine-admin{
-   
-    width: 640px;
-height: 599px;
-gap: 24px;
-margin: 20px auto;
-padding-top: 60px;
-padding-left: 20px;
-
-
-
+   height: 599px;
+   width: 640px;
+   box-sizing: border-box;
+   margin-top: 20px;
 
    }
  .vaccine-admin p{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500px;
     line-height: 26.84px;
  }
-} 
+
+}
+
+@media (min-width: 1000px){
+
+    .main-covid{
+        height: 100vh;
+    }
+
+    .covid-container{
+height: 700.66px;
+width: 90%;
+margin: auto;
+    }
+
+    .vaccine-admin h2{
+        font: var(--Roboto);
+        font-weight: 800px;
+font-size: 30px;
+    }
+
+    .vaccine-admin p{
+        font-size: 18px;
+        line-height: 26.84px;
+    }
+ }
+
+ @media (min-width: 1440px){
+    .covid-container{
+        height: 700.66px;
+        margin: auto;
+        position: relative;
+        top: 60px;
+            }
+        
+            .vaccine-admin h2{
+                font: var(--Roboto);
+                font-weight: 800px;
+        font-size: 30px;
+            }
+
+            .vaccine-admin{
+                font-size: 20px;
+                line-height: 26.84px;
+            }
+
+            .covid-container img{
+                height: 700px;
+            }
+ }
+

@@ -1,0 +1,186 @@
+.parent{
+    background-color: var(--uni);
+}
+
+.specialities{
+    text-align: center;
+}
+
+.specialities h1{
+font-family: var(--Roboto);
+color: var(--primary);
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: center;
+padding-top: 60px;
+}
+
+.specialities img{
+    height: 24px ;
+    margin-bottom: 30px;
+}
+
+.fastest-ambulance{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+.fastest-ambulance img{
+    height: 100px;
+}
+
+.fastest-ambulance h2{
+font-family: var(--Roboto);
+color: var(--primary);
+font-size: 20px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.fastest-ambulance p{
+font-family: var(--primary);
+color: var(--primary);
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+@media (min-width: 720px){
+    .fastest-ambulance{
+flex-direction: row;
+gap: 10px;
+    }
+
+    .specialities h1{
+        font-size: 28px;
+    }
+
+.specialities img{
+    height: 60px;        
+    }
+}
+
+@media (min-width: 1000px){
+    .fastest-ambulance{
+        flex-direction: row;
+        gap: 27px;
+            } 
+
+            .specialities h1{
+                font-size: 32px;
+            }
+
+            .fastest-ambulance h2{
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 28px;
+            }
+
+            .fastest-ambulance p{
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 23px;
+            }
+}
+
+.dokita{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.doctor .hoto{
+    height: 206px;
+    width: 290px;
+}
+
+.dangata{
+    display: none;
+}
+
+.doctor h3{
+    font-family: var(--Roboto);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.doctor p{
+font-family: var(--Roboto);
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: center;
+color: var(--primary);
+
+}
+
+.doctor .icons{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+@media (min-width: 720px){
+    .dokita{
+        flex-direction: row;
+    }
+    .dangata{
+        display: none;
+    }
+
+    .doctor .hoto{
+        height: 250px;
+        width: 300px;
+    }
+
+    .doctor .icons{
+        gap: 25px;
+    }
+
+    .doctor h3{
+        font-size: 32px;
+        font-weight: 600px;
+        margin-top: 10px;
+        
+    }
+
+    .doctor p{
+font-size: 22px;
+margin-top: 18px;
+margin-bottom: 18px;
+    }
+}
+
+@media (min-width: 1000px){
+    .dokita{
+        flex-direction: row;
+    }
+.dokita .hoto{
+height: 200px;
+width: 220px ;
+}
+    .dangata{
+        display: block;
+    }
+}

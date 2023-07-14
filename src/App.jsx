@@ -5,6 +5,7 @@ import './App.css'
 import Header from './Components/Header'
 import Body from './Components/Body'
 import Covid from './Components/Covid'
+import Medkit from './Components/Medkit'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Header />
     <Body />
     <Covid />
+    <Medkit />
     </>
     
 
