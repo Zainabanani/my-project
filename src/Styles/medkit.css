@@ -340,10 +340,10 @@ text-align: center;
     margin-top: 60px;
 }
 .open{
-  width: 900px;
+  width: 1020px;
   justify-content: center;
   align-items: center;
-  margin-left: 70px;
+  margin-left: 90px;
   position: relative;
   bottom: 60px;
 }

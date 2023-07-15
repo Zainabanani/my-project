@@ -1,0 +1,68 @@
+.footer-a{
+    background-color: var(--primary);
+    color: var(--uni);
+    text-align: center;
+}
+
+.futa h1{
+font-family: var(--Roboto);
+font-size: 12px;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: center;
+color: var(--uni);
+padding-top: 30px;
+padding-bottom: 10px;
+
+}
+
+.futa .socials{
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-bottom: 15px;
+}
+
+.futa p{
+font-family: var(--Roboto);
+font-size: 12px;
+font-weight: 300;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 10px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.copyright img{
+    position: relative;
+    bottom: 6px;
+}
+
+@media (min-width: 720px) {
+    .futa p{
+        font-size:18px;
+        margin-bottom: 15px;
+    }
+
+    .futa h1{
+        font-size:18px;
+    }
+    
+    .futa .socials{
+        height: 30px;
+    }
+}
+
+@media (min-width: 1000px){
+    .footer-a{
+        display: none;
+    }
+}

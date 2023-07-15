@@ -6,6 +6,7 @@ import Header from './Components/Header'
 import Body from './Components/Body'
 import Covid from './Components/Covid'
 import Medkit from './Components/Medkit'
+import Footer from './Components/Footer'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Body />
     <Covid />
     <Medkit />
+    <Footer />
     </>
     
 
