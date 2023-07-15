@@ -7,6 +7,7 @@ import Body from './Components/Body'
 import Covid from './Components/Covid'
 import Medkit from './Components/Medkit'
 import Footer from './Components/Footer'
+import About from './Pages/About'
 
 
 function App() {
@@ -14,11 +15,7 @@ function App() {
 
   return (
     <>
-    <Header />
-    <Body />
-    <Covid />
-    <Medkit />
-    <Footer />
+    <About />
     </>
     
 
