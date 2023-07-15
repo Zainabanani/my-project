@@ -237,7 +237,8 @@ width: 375px;
 height: 175px;
  background-color: #1E3673;
  color: var(--uni);
-
+ position: relative;
+ bottom: 80px;
 }
 
 .ope{
@@ -249,6 +250,7 @@ height: 175px;
     align-items: center;
     gap: 10px;
     margin: 60px auto ;
+
 }
 
 .ope p{
@@ -275,6 +277,15 @@ font-family: var(--Roboto);
 font-size: 8px;
 font-weight: 400;
 text-align: center;
+}
+
+@media (min-width: 420px){
+  .open{
+    width: 400px;
+   margin-left: 10px;
+   position: relative;
+   bottom: 80px;
+  }
 }
 
 @media (min-width: 720px) {
@@ -332,7 +343,7 @@ text-align: center;
   width: 900px;
   justify-content: center;
   align-items: center;
-  margin-left: 120px;
+  margin-left: 70px;
   position: relative;
   bottom: 60px;
 }
