@@ -46,6 +46,9 @@ margin-bottom: 10px;
     bottom: 6px;
 }
 
+.footer-b{
+    display: none;
+}
 @media (min-width: 720px) {
     .futa p{
         font-size:18px;
@@ -59,10 +62,67 @@ margin-bottom: 10px;
     .futa .socials{
         height: 30px;
     }
+
+    .footer-b{
+        display: none;
+    }
 }
 
 @media (min-width: 1000px){
     .footer-a{
         display: none;
     }
+
+    .footer-b {
+        display: block;
+    }
+
 }
+
+
+
+.footer-b{
+    background-color: var(--primary);
+    color: var(--uni);
+    width: 100%;
+    padding: 60px;
+}
+
+.fita{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-b .side-b{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-b p{
+    font-family: var(--Roboto);
+font-size: 16px;
+font-weight: 200;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+
+.fita h5{
+font-family: var(--Roboto);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 18px;
+
+}
+
+.side-a .socials{
+    gap: 15px;
+    display: flex;
+}
+
