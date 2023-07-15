@@ -281,8 +281,8 @@ text-align: center;
 
 @media (min-width: 425px){
   .open{
-    width: 400px;
-   margin-left: 10px;
+    width: 380px;
+   margin-left: 10px auto;
    position: relative;
    bottom: 80px;
   }
@@ -340,10 +340,10 @@ text-align: center;
     margin-top: 60px;
 }
 .open{
-  width: 1020px;
+  width: 950px;
   justify-content: center;
   align-items: center;
-  margin-left: 90px;
+  margin: 10px auto;
   position: relative;
   bottom: 60px;
 }

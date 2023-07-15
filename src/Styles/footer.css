@@ -84,7 +84,7 @@ margin-bottom: 10px;
 .footer-b{
     background-color: var(--primary);
     color: var(--uni);
-    width: 100%;
+    /* width: 100%; */
     padding: 60px;
 }
 
