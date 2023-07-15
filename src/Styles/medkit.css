@@ -279,7 +279,7 @@ font-weight: 400;
 text-align: center;
 }
 
-@media (min-width: 420px){
+@media (min-width: 425px){
   .open{
     width: 400px;
    margin-left: 10px;
