@@ -5,12 +5,12 @@ import ambulance from "../assets/ambulance.png";
 import doctor from "../assets/bebi.png";
 import clock from "../assets/clock.png";
 import aisha from "../assets/aisha.png";
-import ajay from "../assets/ajay.png"
-import jay from "../assets/jay.png"
-import stella from "../assets/stella.png"
-import call from "../assets/call.png"
-import chat from "../assets/chat.png"
-import live from "../assets/live.png"
+import ajay from "../assets/ajay.png";
+import jay from "../assets/jay.png";
+import stella from "../assets/stella.png";
+import call from "../assets/call.png";
+import chat from "../assets/chat.png";
+import live from "../assets/live.png";
 
 const Medkit = () => {
   return (
@@ -58,7 +58,7 @@ const Medkit = () => {
 
       <div className="dokita">
         <div className="doctor">
-          <div> 
+          <div>
             <img src={jay} alt={"jay"} className="hoto" />
           </div>
           <div>
@@ -67,7 +67,7 @@ const Medkit = () => {
           </div>
           <div className="icons">
             <img src={chat} alt={"chat"} />
-            <img src={call} alt={"call"}/>
+            <img src={call} alt={"call"} />
             <img src={live} alt={"live"} />
           </div>
         </div>
@@ -81,13 +81,13 @@ const Medkit = () => {
           </div>
           <div className="icons">
             <img src={chat} alt={"chat"} />
-            <img src={call} alt={"call"}/>
+            <img src={call} alt={"call"} />
             <img src={live} alt={"live"} />
           </div>
         </div>
         <div className="doctor dangata">
           <div>
-            <img src={aisha} alt={"aisha"} className="hoto"/>
+            <img src={aisha} alt={"aisha"} className="hoto" />
           </div>
           <div>
             <h3>Dr Aisha Joe</h3>
@@ -95,13 +95,13 @@ const Medkit = () => {
           </div>
           <div className="icons">
             <img src={chat} alt={"chat"} />
-            <img src={call} alt={"call"}/>
+            <img src={call} alt={"call"} />
             <img src={live} alt={"live"} />
           </div>
         </div>
         <div className="doctor dangata">
           <div>
-            <img src={stella} alt={"stella"} className="hoto"/>
+            <img src={stella} alt={"stella"} className="hoto" />
           </div>
           <div>
             <h3>Dr Stella Marie</h3>
@@ -109,9 +109,49 @@ const Medkit = () => {
           </div>
           <div className="icons">
             <img src={chat} alt={"chat"} />
-            <img src={call} alt={"call"}/>
+            <img src={call} alt={"call"} />
             <img src={live} alt={"live"} />
           </div>
+        </div>
+      </div>
+      <div className="patient">
+        <h3>Patients say</h3>
+      </div>
+
+      <div className="faribiyu">
+        <div className="nadaya">
+          <div className="dnadaya">
+          <p>
+            “I had a wonderful experience with Medkit. They ensured my health
+            was greatly taken care of. I highly recommend Medkit.”
+          </p>
+          <h6>
+            Aliya Roll
+          </h6>
+          </div>
+        </div>
+        <div className="nadaya">
+        <div className="dnabiyu">
+          <p>
+          “My treatment was second to none and the staffs  of Medkit were polite and caring”
+          </p>
+          <h6>
+            Elo Zona
+          </h6>
+          </div>
+        </div>
+      </div>
+
+      <div className="specialities second">
+        <img src={zuciya} alt={"heartbeat"} />
+      </div>
+
+      <div className="open">
+        <div className="ope">
+          <p>
+          We Operate 24h a day  - 7 days a week!
+          </p>
+          <button>REPORT A PROBLEM</button>
         </div>
       </div>
     </div>
