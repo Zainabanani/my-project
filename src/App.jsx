@@ -10,6 +10,9 @@ import Footer from './Components/Footer'
 import About from './Pages/About'
 import Services from './Pages/Services'
 import Contact from './Pages/Contact'
+import Login from './Pages/Login'
+import Signup from './Pages/Signup'
+import Appointment from './Pages/Appointment'
 
 
 function App() {
@@ -17,7 +20,7 @@ function App() {
 
   return (
     <>
-    <Contact />
+    <Appointment  />
     </>
     
 

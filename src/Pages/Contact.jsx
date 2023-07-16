@@ -49,11 +49,20 @@ const Contact = () => {
 <input type="text" className='babba'/> <br />
 <button>Send Message</button>
     </div>
-   
     </div>
-
 </div>
-
+{/* fifth layer */}
+<div className='subscribe'>
+<div className='latest-news'>
+    <h1>Subscribe</h1>
+    <p>Get our latest news & update regularly</p>
+</div>
+<div>
+    <input type="text" placeholder='Type Email Address'/>
+    <button>Subscribe</button>
+</div>
+   </div>
+<Footer />
 
     </div>
 
