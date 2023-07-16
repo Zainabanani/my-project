@@ -126,7 +126,61 @@ border: 4px;
         }
 }
 
+@media (min-width: 1000px){
+    .vaccine-bottle img{
+        width: 300px;
+        height: 355px;
+        border-radius: 15px;
+        margin-bottom: 60px;
+        
+        }
 
+        .laptop h1{
+           margin-bottom: 10px;
+           
+        } 
+
+        .laptop .line{
+            width: 35px;
+        border: 4px;
+        
+        }
+
+        .one{
+            display: flex;
+            justify-content: space-evenly;
+          
+        }
+
+        
+       
+}
+
+@media (min-width: 1440px){
+    .vaccine-bottle img{
+        width: 555px;
+        height: 655px;
+        border-radius: 20px;
+        margin-bottom: 60px;
+        
+        }
+
+        .daya{
+        padding-top: 60px;
+        }
+
+        .laptop h1{
+            font-size: 32px;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        .laptop p{
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 27px;
+        }
+}
 
 
 

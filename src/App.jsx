@@ -9,6 +9,7 @@ import Medkit from './Components/Medkit'
 import Footer from './Components/Footer'
 import About from './Pages/About'
 import Services from './Pages/Services'
+import Contact from './Pages/Contact'
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
 
   return (
     <>
-    <Services />
+    <Contact />
     </>
     
 

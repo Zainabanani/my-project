@@ -116,7 +116,10 @@ const Services = () => {
         </div>
       </div>
        {/* fourth layer */}
-       <div className="one">
+       <div className="one haba">
+       <div className="vaccine-bottle">
+          <img src={babyboy} alt={"babyboy"}/>
+        </div>
         <div className="vaccine">
           <div className="mobile">
             <img src={line} alt={"line"} className="line"/>
@@ -142,9 +145,7 @@ const Services = () => {
           </div>
         </div>
        
-        <div className="vaccine-bottle">
-          <img src={babyboy} alt={"babyboy"}/>
-        </div>
+       
       </div>
        {/* fifth layer */}
        <div className="one">
@@ -178,7 +179,11 @@ const Services = () => {
         </div>
       </div>
       {/* sixth layer */}
-      <div className="one">
+      <div className="one haba">
+               
+      <div className="vaccine-bottle">
+          <img src={doki} alt={"doki"}/>
+        </div>
         <div className="vaccine">
           <div className="mobile">
             <img src={line} alt={"line"} className="line"/>
@@ -203,10 +208,7 @@ const Services = () => {
             <button>See Details</button>
           </div>
         </div>
-       
-        <div className="vaccine-bottle">
-          <img src={doki} alt={"doki"}/>
-        </div>
+
       </div>
       <Footer />
     </div>
