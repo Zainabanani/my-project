@@ -13,14 +13,29 @@ import Contact from './Pages/Contact'
 import Login from './Pages/Login'
 import Signup from './Pages/Signup'
 import Appointment from './Pages/Appointment'
+import Home from './Pages/Home'
+import {BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom'
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-    <Appointment  />
+       <Router>
+        <Routes>
+        <Route path= '/' element = {<Home />} />
+<Route path= '/home'element= { <Navigate to = '/' />}  />
+<Route path = '/about' element= {<About />} />
+<Route path= '/appointment' element = {<Appointment />} />
+<Route path= '/contact' element = {<Contact />} />
+<Route path= '/services' element = {<Services />} />
+<Route path= '/signup' element = {<Signup />} />
+<Route path= '/login' element = {<Login />} />
+<Route path = '*' element= {<Error />} />
+        </Routes>
+       </Router>
     </>
     
 
@@ -30,3 +45,5 @@ function App() {
 }
 
 export default App
+
+

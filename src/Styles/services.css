@@ -151,9 +151,14 @@ border: 4px;
             justify-content: space-evenly;
           
         }
-
+.vaccine .laptop p{
+    font-size: var(--Roboto);
+    font-size: 20px;
+font-weight: 300;
+line-height: 27px;
+}
         
-       
+
 }
 
 @media (min-width: 1440px){
@@ -183,6 +188,7 @@ border: 4px;
 }
 
 
+        
 
 
 

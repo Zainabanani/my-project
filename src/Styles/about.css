@@ -52,6 +52,15 @@
 .main-c button img {
   height: 10px;
 }
+.blue{
+  width: 200px;
+  height: 200px;
+  background-color: #2F98C2;
+  border-radius: 20px;
+  box-shadow: 20px 20px #1E3673;
+  margin-bottom: 20px;
+
+}
 
 @media (min-width: 420px) {
   .main-c {

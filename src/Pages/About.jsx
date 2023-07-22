@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/about.css";
+import { Link } from "react-router-dom";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import fdoctor from "../assets/fdoctor.png";
@@ -122,10 +123,10 @@ const About = () => {
             <h1>Our Story</h1>
             <p>Lorem ipsum dolor sit amet consectetur. Cras viverra</p>
             <p>vulputate scelerisque sem. Nullam lectus mauris malesuada</p>
-<p>rhoncus. Risus quis penatibus sodales cursus. Velit massa</p>
-<p>dolor leo fermentia amet sit mattis. Sit praesent imperdiet</p>
-<p> pretium enim ut bibendum in dolor.</p>
-<button type="submit">Learn More</button>
+            <p>rhoncus. Risus quis penatibus sodales cursus. Velit massa</p>
+            <p>dolor leo fermentia amet sit mattis. Sit praesent imperdiet</p>
+            <p> pretium enim ut bibendum in dolor.</p>
+            <button type="submit">Learn More</button>
           </div>
           <div className="story-laptop">
             <h1>Our Story</h1>
@@ -148,7 +149,6 @@ const About = () => {
             </p>
             <button type="submit">Learn More</button>
           </div>
-          
         </div>
 
         <div className="right">
@@ -187,30 +187,65 @@ const About = () => {
         </div>
       </div>
       {/* boxes */}
-      <div className="parent-boxes">
-<div className="boxes">
-<div className="one">
-  <h2>98%</h2>
-  <p>Satisfied Patients</p>
-  </div>
-  <div className="two">
-  <h2>15  +</h2>
-  <p>Merit Awards</p>
-  </div>
-  <div className="one">
-  <h2>98%</h2>
-  <p>Satisfied Patients</p>
-  </div>
-  <div className="one">
-  <h2>98%</h2>
-  <p>Satisfied Patients</p>
-  </div>
-</div>
-
-<div>
+      {/* <div className="parent-boxes">
+        <div className="boxes">
+          <div className="one">
+            <h2>98%</h2>
+            <p>Satisfied Patients</p>
+            </div>
+            <div className="two">
+            <h2>15  +</h2>
+            <p>Merit Awards</p>
+            </div>
+            <div className="one">
+            <h2>98%</h2>
+            <p>Satisfied Patients</p>
+            </div>
+            <div className="one">
+            <h2>98%</h2>
+            <p>Satisfied Patients</p>
+        </div>
+      </div>
+      <div>
 <img src={covi} alt={"covi"} />
 </div>
+      </div> */}
+      <div className="d-block d-lg-flex px-2 justify-content-between align-items-center w-100 py-3">
+        <div className="d-none d-lg-block " style={{ width: "450px" }}>
+          <div className="one d-flex justify-content-between pb-3">
+            <div className="d-flex justify-content-center align-items-center blue">
+              <div>
+                <h2>98%</h2>
+                <p>Satisfied Patients</p>
+              </div>
+            </div>
+            <div className="d-flex justify-content-center align-items-center blue">
+              <div>
+                <h2>15 +</h2>
+                <p>Merit Awards</p>
+              </div>
+            </div>
+          </div>
+          <div className="one d-flex justify-content-between">
+            <div className="d-flex justify-content-center align-items-center  blue">
+              <div>
+                <h2>98%</h2>
+                <p>Satisfied Patients</p>
+              </div>
+            </div>
+            <div className="d-flex justify-content-center align-items-center blue">
+              <div>
+                <h2>98%</h2>
+                <p>Satisfied Patients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src={covi} alt="covi" />
+        </div>
       </div>
+
       {/* footer */}
       <Footer />
     </div>

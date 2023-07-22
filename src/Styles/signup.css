@@ -12,6 +12,7 @@
     justify-content: center;
     gap: 15px;
     padding-left: 25px;
+
 }
 
 .left .logo{
@@ -43,6 +44,7 @@ line-height: 16px;
 letter-spacing: 0em;
 text-align: center;
 color: var(--primary);
+margin-bottom: 0px;
 
 }
 
@@ -111,6 +113,11 @@ color: var(--nursery);
         justify-content: center;
         gap: 120px;
     }
+
+    /* .left{
+        margin-bottom: 0px;
+        border: 2px solid red;
+    } */
 }
 
 

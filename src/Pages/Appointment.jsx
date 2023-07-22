@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Styles/appoint.css";
+import { Link } from "react-router-dom";
 import logo from "../assets/Logo.png";
 import nicedoc from "../assets/nicedoc.png";
 import lines from "../assets/Lines.png";
@@ -32,16 +33,16 @@ const Appointment = () => {
     <img src={lines} alt={"lines"} className='lines' />
 </div>
 <div>
-    <input type="button" placeholder='first Name*' />
+    <input type="text" placeholder='first Name*' />
 </div>
 <div>
-    <input type="button" placeholder='Last Name*' />
+    <input type="text" placeholder='Last Name*' />
 </div>
 <div>
-    <input type="button" placeholder='Phone no*' />
+    <input type="tel" placeholder='Phone no*' />
 </div>
 <div>
-    <input type="button" placeholder='Appointment Date*' />
+    <input type="date" placeholder='Appointment Date*' />
 </div>
 <div>
     <button>REQUEST</button>

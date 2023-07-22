@@ -19,7 +19,7 @@ nav ul span{
   nav ul{
     display: flex;
     gap: 10px;
-    font: var(--Roboto);
+    font-family: var(--Roboto);
     font-weight: 700;
     color: var(--primary);
 }

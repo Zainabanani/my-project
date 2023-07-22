@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from "../assets/Logo.png";
 import "../Styles/header.css";
+import { Link } from 'react-router-dom';
+
 
 const Header = () => {
   return (
@@ -11,19 +13,40 @@ const Header = () => {
             </div>
             <div className='links'>
 <ul>
-    <li><a href=""><span>HOME</span></a></li>
-    <li><a href="">ABOUT</a></li>
-    <li><a href="">SERVICES</a></li>
-    <li><a href="">CONTACT</a></li>
+  <Link to= "/">
+   <li><span>HOME</span></li>
+  </Link>
+   
+
+    <Link to="/about">
+    <li>ABOUT</li>
+    </Link>
+
+    <Link to="/services">
+    <li>SERVICES</li>
+    </Link>
+    
+    <Link to="/contact">
+    <li>CONTACT</li>
+    </Link>
+   
 </ul>
             </div>
             <div className='maballi'>
-                <button className='login'>Log In</button>
-                <button className='signup'>Sign Up</button>
+            <Link to="/login">
+            <button className='login'>Log In</button>
+            </Link>
+<Link to="/signup">
+<button className='signup'>Sign Up</button>
+</Link>
+               
             </div>
         </nav>
     </div>
   )
 }
+
+
+
 
 export default Header

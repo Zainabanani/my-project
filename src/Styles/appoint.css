@@ -52,18 +52,19 @@ margin-top: 40px;
 }
 
 .make input{
-    width: 325px;
+    width: 300px;
 height: 39px;
 border-radius: 20px;
 border: 1px solid var(--primary);
 background-color: white;
 margin-bottom: 15px;
+padding-left: 5px;
 
 
 }
 
 
-.make input ::placeholder{
+.make input::placeholder{
     font-family: var(--Roboto);
     font-size: 12px;
     font-weight: 400;

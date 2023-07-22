@@ -142,7 +142,7 @@ const Medkit = () => {
         </div>
       </div>
 
-      <div className="specialities second">
+      <div className="specialities-second">
         <img src={zuciya} alt={"heartbeat"} />
       </div>
 
