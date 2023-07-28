@@ -101,16 +101,35 @@ color: var(--nursery);
 
 
 @media (min-width: 1000px){
-    .right img{
-        width: 350px;
-        height:490px ;
-        border-radius: 15px;
-    }
-
-    .login{
+    .login .logo {
+        height: 50px;
+      }
+      .left{
+        margin-bottom: 30px;
+      }
+      .left h1 {
+        font-size: 22px;
+      }
+      .left .hoto {
+        display: flex;
+        gap: 10px;
+        height: 33px;
+        /* width: 30px; */
+      }
+      .left input {
+        width: 360px;
+        height: 45px;
+      }
+      .right img {
+        width: 400px;
+        height: 540px;
+        border-radius: 25px;
+      }
+    
+      .login {
         justify-content: center;
         gap: 120px;
-    }
+      }
 }
 
 

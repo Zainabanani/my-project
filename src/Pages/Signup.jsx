@@ -72,7 +72,10 @@ setPerson({fullname: (''), email: (''), password: ('')})
     <p><span>Forgot your password</span></p>
     </div>
  <div>
-  <button type='submit' onClick={handleSubmit}>Log in</button>
+  <Link to="/appointment">
+  <button type='submit' onClick={handleSubmit}>Sign Up</button>
+  </Link>
+ 
  </div>
 <p>{formError}</p>
  <div className='account'>

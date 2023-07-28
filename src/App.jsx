@@ -14,6 +14,7 @@ import Login from './Pages/Login'
 import Signup from './Pages/Signup'
 import Appointment from './Pages/Appointment'
 import Home from './Pages/Home'
+import Error from './Pages/Error'
 import {BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom'
 
 
