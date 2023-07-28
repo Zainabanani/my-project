@@ -22,23 +22,22 @@ const Login = () => {
   }
 
 const handleSubmit = (e)=>{
-  e.preventDefault
-  if(person){
-    redirect('/')
-  }else{
-    setFormError('All inputs has to be filled')
-  }
+  e.preventDefault ()
+  // if(person){
+  //   redirect('/')
+  // }else{
+  //   setFormError('All inputs has to be filled')
+  // }
   console.log(person);
-  setPerson({fullname: (''), email: (''), password: ('')})
-}
-// if (!person.email.includes('@')){
-//   setErrorEmail ('This is not a valid email')
+  if (!person.email.includes('@')){
+    setErrorEmail ('This is not a valid email') 
+  }
   
-// }
-
-// if (person.password.length < 5){
-//   setErrorPassword ('Password is weak')
-// }
+  if (person.password.length < 5){
+    setErrorPassword ('Password is weak')
+}
+setPerson({fullname: (''), email: (''), password: ('')})
+}
   return (
     <div className='login'>
 <div className='left'>

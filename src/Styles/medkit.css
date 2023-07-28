@@ -98,8 +98,10 @@
 .dokita {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
+  overflow-x: scroll;
+  gap: 10px;
+  width: 95%;
+ 
 }
 
 .doctor .hoto {
@@ -107,9 +109,7 @@
   width: 290px;
 }
 
-.dangata {
-  display: none;
-}
+
 
 .doctor h3 {
   font-family: var(--Roboto);
@@ -139,6 +139,11 @@
   gap: 10px;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+.specialities-second img{
+  border: 2px solid red;
+  height: 24px;
+  margin: 20px auto;
 }
 
 @media (min-width: 720px) {
@@ -315,6 +320,15 @@ text-align: center;
  position: relative;
  top: 10px;
  height: 120px;
+ margin-bottom: 20px;
+}
+.ope button{
+  position: relative;
+  bottom: 20px;
+}
+
+.specialities-second img{
+  height: 40px;
 }
 }
 
@@ -335,9 +349,7 @@ text-align: center;
     line-height: 23px;
     letter-spacing: 0em;
   }
-.specialities-second{
-  border: 2px solid red;
-}
+
   .nadaya h6{
     font-size: 20px;
     font-weight: 700;
@@ -414,8 +426,6 @@ letter-spacing: 0em;
 }
  
 }
-
-
 
 .parent{
   flex-direction: column;

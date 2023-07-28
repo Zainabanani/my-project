@@ -1,6 +1,7 @@
 import React from "react";
 import doctor from "../assets/doctor.png";
 import "../Styles/body.css";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   return (
@@ -28,7 +29,10 @@ const Body = () => {
        <div className="raj">
        <h3>Dr. Raj Spencer</h3>
         <p>consultant</p>
+        <Link to='/appointment'>
         <button>Book Appointment</button>
+        </Link>
+      
        </div>
 
       </div>
