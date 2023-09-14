@@ -1,13 +1,12 @@
 import React from 'react';
 
-import "../Styles/about3.css";
 
 const About3 = () => {
   return (
     <div>
-      <div className="story-body">
+      <div className="story-part">
         <div className="left">
-          <div className="story-mobile">
+          {/* <div className='labari-qarami'>
             <h1>Our Story</h1>
             <p>Lorem ipsum dolor sit amet consectetur. Cras viverra</p>
             <p>vulputate scelerisque sem. Nullam lectus mauris malesuada</p>
@@ -15,8 +14,8 @@ const About3 = () => {
             <p>dolor leo fermentia amet sit mattis. Sit praesent imperdiet</p>
             <p> pretium enim ut bibendum in dolor.</p>
             <button type="submit">Learn More</button>
-          </div>
-          <div className="story-laptop">
+          </div> */}
+          {/* <div className="labari-babba">
             <h1>Our Story</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur. Cras viverra vulputate
@@ -36,25 +35,25 @@ const About3 = () => {
               nibh aliquam nisl.
             </p>
             <button type="submit">Learn More</button>
-          </div>
+          </div> */}
         </div>
 
         <div className="right">
-          <div className="vission-mobile">
+          <div className="vission-q">
             <h1>Our Vission</h1>
             <p>Lorem ipsum dolor sit amet consectetur. Velit massa dolor</p>
             <p>leo fermentia amet sit mattis. Sit praesent imperdiet pretium</p>
             <p> enim ut bibendum in.</p>
           </div>
 
-          <div className="mission-mobile">
+          <div className="mission-q">
             <h1> Mission</h1>
             <p>Lorem ipsum dolor sit amet consectetur. Velit massa dolor</p>
             <p>leo fermentia amet sit mattis. Sit praesent imperdiet pretium</p>
             <p> enim ut bibendum in.</p>
           </div>
 
-          <div className="vission-laptop">
+          <div className="vission-b">
             <h1>Our Vission</h1>
             <hr />
             <p>
@@ -63,7 +62,7 @@ const About3 = () => {
               pretium <br /> enim ut bibendum in.
             </p>
           </div>
-          <div className="mission-laptop">
+          <div className="mission-b">
             <h1>Mission</h1>
             <hr />
             <p>

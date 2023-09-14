@@ -114,6 +114,7 @@
   }
   
   @media (min-width: 1000px) {
+
     .down .hoto {
       display: block;
     }
@@ -124,12 +125,16 @@
      bottom: 70px;
   
   }
+
+
     .parent {
+
       display: flex;
       justify-content: center ;
       align-items: center;
       gap: 30px;
       margin-right: 20px;
+      flex-direction: row;
     }
   
     .why img{

@@ -5,6 +5,7 @@ import check from "../assets/check.png";
 import "../Styles/about2.css"
 
 const About2 = () => {
+
   return (
     <>  
       <div className="body">
